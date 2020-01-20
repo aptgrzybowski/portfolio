@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
+	font-family: 'Libre Baskerville', serif;
     /* background-image: url('img/stripes-light.png'); */
     background-image: url('img/funky-lines.png');
 }
@@ -31,8 +32,9 @@ header {
 
 h1 {
     color: #e4d799;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bold;
+	font-family: 'Libre Baskerville', serif;
+	font-style: italic;
+    font-weight: normal;
     font-size: 5em;
 }
 
@@ -77,17 +79,24 @@ section {
     display: grid;
     grid-template-columns: minmax(auto, 1000px);
     justify-content: center;
-    padding: 5em 0;
+    /* padding: 5em 0; */
 }
 
 h2 {
     /* border: solid 1px black; */
     color: #3B4338;  
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: small-caps; */
+	margin: 3em 0;
+	padding: 1em 2em;
+	/* display: block; */
+	justify-self: center;
+
     font-weight: normal;
     font-size: 3em;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
+	border-top: solid 1px #3b4338;
+	border-bottom: solid 1px black;
 }
 
 .project {
@@ -110,7 +119,7 @@ h2 {
 
 .projects h3 {
 	font-size: 2em;
-	margin-bottom: 15px;
+	margin-bottom: 0.8em;
 	background-color: #f1e6b2;
 	align-self: center;
 	padding: 5px;
@@ -118,6 +127,7 @@ h2 {
 
 .projects p {
 	font-size: 1.2em;
+	line-height: 1.7em;
 }
 .info {
 	flex-grow: 1;
