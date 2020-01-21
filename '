@@ -138,17 +138,7 @@ h2 {
 }
 
 footer {
-    background-image: url('img/5-dots.png');
-	color: white;
-	margin-top: 15em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	box-shadow: #3b433882 0 -4em 0 0;
-}
-
-footer > p {
-	padding: 6em;
+	padding: 400px;
+    background-image: url('img/repeated-square-dark.png');
 }
 
